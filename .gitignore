@@ -1,0 +1,9 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+venv/
+
+# Local databases and vector store (generated at runtime)
+chat_history.db
+chroma_db/

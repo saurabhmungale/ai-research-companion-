@@ -1,0 +1,11 @@
+streamlit
+groq
+tavily-python
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+
+# Streamlit Community Cloud ships an old system sqlite3 that ChromaDB can't
+# use. This provides a compatible one (app.py swaps it in automatically).
+pysqlite3-binary; platform_system == "Linux"
